@@ -1,10 +1,10 @@
-package com.example;
+package com.aurum;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.thoughtworks.xstream.XStream;
 
-public class ExampleModPlugin extends BaseModPlugin {
+public class ScaphicHullsModPlug extends BaseModPlugin {
 
     @Override
     public void onGameLoad(boolean newGame) {

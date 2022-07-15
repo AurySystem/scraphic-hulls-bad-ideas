@@ -49,8 +49,8 @@ Choose whether you wish to manually update the `mod_info.json` and Version Check
 #### Option 1: If starting a brand-new project
 
 - [ ] Change the package from the template default. In IntelliJ, open up `ExampleEveryFrameScript`,
-  right-click on the first line in the file (`package com.example;`) and go to `Refactor - Rename`. From there, you may
-  rename `com.example` to anything lowercase you like (e.g. "wisp.perseanchronicles"). If it pops up a refactoring preview, keep everything selected and
+  right-click on the first line in the file (`package com.aurum;`) and go to `Refactor - Rename`. From there, you may
+  rename `com.aurum` to anything lowercase you like (e.g. "wisp.perseanchronicles"). If it pops up a refactoring preview, keep everything selected and
   click `Do Refactor`.
   - You will put any new code you write into the `src/com/example` directory (or `src/wisp/perseanchronicles` or whatever you named it in the previous step).
 - Any other assets, such as `graphics` or `data`, can go directly into the top-level folder (next to, but not inside, `src`).
