@@ -10,11 +10,6 @@ public class ScaphicHullsModPlug extends BaseModPlugin {
     public void onGameLoad(boolean newGame) {
         super.onGameLoad(newGame);
 
-        // Example only.
-        // This does nothing and can be deleted.
-        if (Global.getSettings().isDevMode()) {
-            Global.getSector().addTransientScript(new ExampleEveryFrameScript());
-        }
     }
 
     /**

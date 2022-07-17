@@ -6,7 +6,10 @@
 DO_NOT_USE
 .gitignore
 .gradle
+^.run
 ^gradle
+.gradle/
 .flac$
 ^.github/
+^.libs/
 banner.png$

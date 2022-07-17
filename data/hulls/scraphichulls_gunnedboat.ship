@@ -528,6 +528,24 @@
       "arc": 255,
       "angle": -90,
       "locations": [-81.5, -8.5]
+    },
+    {
+      "id": "WS0058",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 13,
+      "angle": 0,
+      "locations": [91.5, 24]
+    },
+    {
+      "id": "WS0059",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 13,
+      "angle": 0,
+      "locations": [92, -3]
     }
   ],
   "engineSlots": [

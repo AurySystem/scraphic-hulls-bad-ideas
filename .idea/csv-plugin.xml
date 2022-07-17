@@ -3,6 +3,34 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Epta Consortium 1.4.6\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Program Files (x86)\Fractal Softworks\Starsector\mods\Epta Consortium 1.4.6\data\shipsystems\ship_systems.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Program Files (x86)\Fractal Softworks\Starsector\starsector-core\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="C:\Program Files (x86)\Fractal Softworks\Starsector\starsector-core\data\shipsystems\ship_systems.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\data\campaign\rules.csv">
           <value>
             <Attribute>
@@ -32,6 +60,13 @@
           </value>
         </entry>
         <entry key="\data\hulls\ship_data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\data\shipsystems\ship_systems.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

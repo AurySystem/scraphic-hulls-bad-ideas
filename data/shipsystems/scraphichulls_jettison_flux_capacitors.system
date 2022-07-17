@@ -1,0 +1,16 @@
+{
+	"id":"cryoflux",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+
+	"statsScript":"com.fs.starfarer.api.impl.combat.CryofluxTransducerStats",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"autocannon_fire",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}
+
+

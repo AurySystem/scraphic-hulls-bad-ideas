@@ -1,0 +1,43 @@
+{
+  "variantId": "scraphichulls_tanker_para_standard",
+  "hullId": "scraphichulls_tanker_para",
+  "displayName": "Machine Gun Tanker",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "militarized_subsystems",
+    "pointdefenseai",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0004": "vulcan",
+        "WS0005": "vulcan",
+        "WS0006": "vulcan",
+        "WS0007": "vulcan",
+        "WS0008": "vulcan",
+        "WS0009": "vulcan",
+        "WS0010": "vulcan",
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "scraphichulls_wallshot",
+        "WS0014": "scraphichulls_wallshot",
+        "WS0015": "heavymg",
+        "WS0016": "heavymg",
+        "WS0017": "heavymg",
+        "WS0018": "heavymg",
+        "WS0019": "scraphichulls_wallshot",
+        "WS0020": "heavymg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}
