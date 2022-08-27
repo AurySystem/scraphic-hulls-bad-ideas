@@ -2,8 +2,8 @@
   "hullName": "Promeragon",
   "hullId": "scraphichulls_tanker_para",
   "hullSize": "CAPITAL_SHIP",
-  "spriteName": "graphics/ships/tanker paragon.png",
-  "style": "LOW_TECH",
+  "spriteName": "graphics/ships/scraphic hulls tanker paragon.png",
+  "style": "MIDLINE",
   "coversColor": "255,180,170,255",
   "height": 394,
   "width": 326,
@@ -13,27 +13,14 @@
   "shieldRadius": 222,
   "viewOffset": 0,
   "builtInMods": [
-    "auxiliary_fuel_tanks"
+    "auxiliary_fuel_tanks",
+    "pointdefenseai"
   ],
+  "builtInWeapons": {
+    "WS0027": "blinker_green",
+    "WS0028": "blinker_red"
+  },
   "weaponSlots": [
-    {
-      "id": "WS0002",
-      "size": "SMALL",
-      "type": "SYSTEM",
-      "mount": "TURRET",
-      "arc": 38,
-      "angle": -45,
-      "locations": [136.5, -75.5]
-    },
-    {
-      "id": "WS0003",
-      "size": "SMALL",
-      "type": "SYSTEM",
-      "mount": "TURRET",
-      "arc": 38,
-      "angle": 45,
-      "locations": [136.5, 78.5]
-    },
     {
       "id": "WS0001",
       "size": "SMALL",
@@ -111,8 +98,8 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 276,
-      "angle": -116.5,
+      "arc": 270,
+      "angle": -135,
       "locations": [-111.5, -121]
     },
     {
@@ -120,26 +107,26 @@
       "size": "SMALL",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 276,
-      "angle": 116.5,
+      "arc": 270,
+      "angle": 135,
       "locations": [-111.5, 124]
     },
     {
       "id": "WS0013",
       "size": "LARGE",
-      "type": "BALLISTIC",
+      "type": "MISSILE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
+      "angle": -13,
       "locations": [-73.5, -23.5]
     },
     {
       "id": "WS0014",
       "size": "LARGE",
-      "type": "BALLISTIC",
+      "type": "MISSILE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": -0,
+      "angle": 13,
       "locations": [-73.5, 26.5]
     },
     {
@@ -163,27 +150,27 @@
     {
       "id": "WS0017",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
+      "angle": 24,
       "locations": [-1, 45.5]
     },
     {
       "id": "WS0018",
       "size": "MEDIUM",
-      "type": "BALLISTIC",
+      "type": "COMPOSITE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": -0,
+      "angle": -24,
       "locations": [-1, -42.5]
     },
     {
       "id": "WS0019",
       "size": "LARGE",
-      "type": "BALLISTIC",
+      "type": "ENERGY",
       "mount": "TURRET",
-      "arc": 360,
+      "arc": 331,
       "angle": -0,
       "locations": [175.5, 1.5]
     },
@@ -192,45 +179,58 @@
       "size": "MEDIUM",
       "type": "BALLISTIC",
       "mount": "TURRET",
-      "arc": 360,
-      "angle": -0,
+      "arc": 302,
+      "angle": 180,
       "locations": [-142.5, 1.5]
     },
     {
-      "id": "WS0021",
-      "size": "SMALL",
-      "type": "SYSTEM",
-      "mount": "TURRET",
-      "arc": 38,
-      "angle": 45,
-      "locations": [127.5, 88.5]
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -118, 1.5,
+        -115, 7.5,
+        -115, -4.5
+      ]
     },
     {
-      "id": "WS0022",
-      "size": "SMALL",
-      "type": "SYSTEM",
-      "mount": "TURRET",
-      "arc": 38,
-      "angle": -45,
-      "locations": [127.5, -85.5]
+      "id": "WS0025",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [112, 112.5]
     },
     {
-      "id": "WS0023",
-      "size": "SMALL",
-      "type": "SYSTEM",
-      "mount": "TURRET",
-      "arc": 38,
-      "angle": 62.5,
-      "locations": [-70.5, 143.5]
+      "id": "WS0026",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [112, -109.5]
     },
     {
-      "id": "WS0024",
+      "id": "WS0027",
       "size": "SMALL",
-      "type": "SYSTEM",
-      "mount": "TURRET",
-      "arc": 38,
-      "angle": -62.5,
-      "locations": [-70.5, -140.5]
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [146.5, -34]
+    },
+    {
+      "id": "WS0028",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [146, 37]
     }
   ],
   "engineSlots": [

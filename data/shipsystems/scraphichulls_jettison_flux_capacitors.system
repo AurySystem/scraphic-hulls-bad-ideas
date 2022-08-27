@@ -1,9 +1,9 @@
 {
-	"id":"cryoflux",
+	"id":"scraphichulls_jettison_flux_capacitors",
 	"type":"STAT_MOD",
 	"aiType":"WEAPON_BOOST",
 
-	"statsScript":"com.fs.starfarer.api.impl.combat.CryofluxTransducerStats",
+	"statsScript":"com.aurum.data.shipsystems.scripts.JettisonFluxCapacitorsStats",
 
 	"fadeActivationSoundOnChargedown":true,
 	"useSound":"autocannon_fire",

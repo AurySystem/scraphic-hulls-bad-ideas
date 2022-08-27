@@ -2,7 +2,7 @@
   "hullName": "Mobile Gun Platform Delta",
   "hullId": "scraphichulls_gunnedboat",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/weaponmountswithengines.png",
+  "spriteName": "graphics/ships/scraphic hulls gun barge.png",
   "style": "MIDLINE",
   "height": 220,
   "width": 100,
@@ -536,7 +536,7 @@
       "mount": "HARDPOINT",
       "arc": 13,
       "angle": 0,
-      "locations": [91.5, 24]
+      "locations": [95, 26]
     },
     {
       "id": "WS0059",
@@ -545,7 +545,7 @@
       "mount": "HARDPOINT",
       "arc": 13,
       "angle": 0,
-      "locations": [92, -3]
+      "locations": [96, -5]
     }
   ],
   "engineSlots": [

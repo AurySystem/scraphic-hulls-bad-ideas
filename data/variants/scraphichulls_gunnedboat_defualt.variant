@@ -8,17 +8,11 @@
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "shared_flux_sink",
-    "glitched_sensors",
-    "fragile_subsystems",
-    "faulty_grid",
     "faulty_auto",
-    "ex_phase_coils",
-    "erratic_injector",
     "degraded_shields",
-    "chassis_storage",
-    "converted_fighterbay",
-    "hardened_subsystems"
+    "pointdefenseai",
+    "converted_hangar",
+    "erratic_injector"
   ],
   "weaponGroups": [
     {
@@ -119,5 +113,7 @@
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "talon_wing"
+  ]
 }

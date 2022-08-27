@@ -4,12 +4,17 @@
     "name": "Scraphic Ships Bad Hulls and Weapons",
     "author": "Aury",
     "utility": "false",
-    "version": { "major":"0", "minor": "1", "patch": "2" },
+    "version": "0.1.3",
     "description": "Terrible ideas given form and life.",
     "gameVersion": "0.95.1a-RC6",
     "jars":["jars/ScraphicShips.jar"],
-    "modPlugin":"com.aurum.ScraphicHullsModPLug",
+    "modPlugin":"com.aurum.data.scripts.ScraphicHullsModPlug",
     "dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib",
+            # "version": "2.6" # If a specific version or higher is required, include this line
+        },
         {
             "id": "lw_lazylib",
             "name": "LazyLib",

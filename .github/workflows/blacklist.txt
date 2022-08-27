@@ -1,15 +1,1 @@
-.psd$
-.ai$
-.afphoto$
-^.idea
-^.circleci
-DO_NOT_USE
-.gitignore
-.gradle
-^.run
-^gradle
-.gradle/
-.flac$
-^.github/
-^.libs/
-banner.png$
+\.psd$|\.ai$|\.afphoto$|^\.idea|^\.circleci|DO_NOT_USE|\.gitignore|\.gradle|^\.run|^gradle|\.flac$|^\.github/|^libs/|banner\.png$
